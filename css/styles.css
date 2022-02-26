@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 * {
   font-family: "Poppins", sans-serif;
@@ -19,6 +20,30 @@ html {
 
 section {
   padding: 3rem 9%;
+}
+
+/* ======= Header Section/Seção de Cabeçalho ======== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #222;
+}
+.header .logo i {
+  color: #bac34e;
+  padding-right: 0.5rem;
 }
 
 /* ======= Resposividade ======= */
