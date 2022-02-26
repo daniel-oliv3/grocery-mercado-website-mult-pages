@@ -61,6 +61,30 @@ section{
             padding-right: .5rem;
         }
     }
+
+    .navbar {
+
+        a {
+            font-size: 1.7rem;
+            color: $light-color;
+            margin: 0 1rem;
+    
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+
+    .icons div {
+        font-size: 2.5rem;
+        margin-left: 1.7rem;
+        cursor: pointer;
+        color: $light-color;
+
+        &:hover {
+            color: $green;
+        }
+    }
 }
 
 

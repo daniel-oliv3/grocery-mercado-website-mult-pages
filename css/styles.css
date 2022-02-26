@@ -45,6 +45,23 @@ section {
   color: #bac34e;
   padding-right: 0.5rem;
 }
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #666;
+  margin: 0 1rem;
+}
+.header .navbar a:hover {
+  color: #bac34e;
+}
+.header .icons div {
+  font-size: 2.5rem;
+  margin-left: 1.7rem;
+  cursor: pointer;
+  color: #666;
+}
+.header .icons div:hover {
+  color: #bac34e;
+}
 
 /* ======= Resposividade ======= */
 @media (max-width: 991px) {
