@@ -35,6 +35,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 9%;
+  /* Formulario de pesquisa */
 }
 .header .logo {
   font-size: 2.5rem;
@@ -62,7 +63,44 @@ section {
 .header .icons div:hover {
   color: #bac34e;
 }
+.header .search-form {
+  position: absolute;
+  top: -115%;
+  right: 2rem;
+  width: 50rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  height: 5.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.header .search-form.active {
+  top: 115%;
+}
+.header .search-form input {
+  height: 100%;
+  width: 100%;
+  padding: 0 1.2rem;
+  font-size: 1.6rem;
+  color: #222;
+  text-transform: none;
+}
+.header .search-form label {
+  font-size: 2.5rem;
+  margin-right: 1.7rem;
+  cursor: pointer;
+  color: #666;
+}
+.header .search-form label:hover {
+  color: #bac34e;
+}
 
+#menu-btn {
+  display: none;
+}
+
+/* =======  ======= */
 /* ======= Resposividade ======= */
 @media (max-width: 991px) {
   html {
