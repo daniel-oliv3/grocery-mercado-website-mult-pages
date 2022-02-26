@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+$green:#bac34e;
+$black:#222;
+$white:#fff;
+$light-color:#666;
+$light-bg:#f3f3f3;
+$border:.1rem solid rgba(0,0,0,.1);
+$box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap:1.5rem;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section{
+  padding:3rem 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// media queries 
+@media (max-width:991px){
+
+    html{
+      font-size: 55%;
+    }
+  
+    .header{
+      padding:2rem;
+    }
+  
+    section{
+    padding:3rem 2rem;
+    }
+  
+    .home #next-slide,
+    .home #prev-slide{
+      transform:translateY(0);
+      top:88%;
+    }
+  
+    .home #prev-slide{
+      left:auto;
+      right:8rem;
+    }
+  
+  }
+  
+  @media (max-width:768px){
+  
+    #menu-btn{
+      display: inline-block;
+    }
+  
+    .header{
+  
+      .search-form{
+        width: 100%;
+        right:0;
+        border-radius: 0;
+  
+        &.active{
+          top:99%;
+          border-top: $border;
+          border-bottom: $border;
+        }
+      }
+  
+      .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background:$white;
+        border-top: $border;
+        border-bottom: $border;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  
+        &.active{
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+  
+        a{
+          margin:1.5rem;
+          padding:1.5rem;
+          background: $light-bg;
+          font-size: 2rem;
+          display: block;
+          border-radius: .5rem;
+        }
+      }
+    }
+  
+  }
+  
+  @media (max-width:450px){
+  
+    html{
+      font-size: 50%;
+    }
+  
+    .home .slides-container .slide .content h3{
+      font-size: 5rem;
+    }
+  
+    .contact .row form .inputBox input{
+      width:100%;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Caminho para o gitbash 
+cd C:/Users/Daniel_Oliveira/Documents/GitHub/grocery-mercado-website-mult-pages
+
+SASS
+sass --watch ./css/styles.scss:./css/styles.css
+
+m
+*/
