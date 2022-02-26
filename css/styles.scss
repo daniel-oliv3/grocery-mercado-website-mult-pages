@@ -2,9 +2,11 @@
 
 *{
   font-family: 'Poppins', sans-serif;
-  margin:0; padding:0;
+  margin:0; 
+  padding:0;
   box-sizing: border-box;
-  outline: none; border:none;
+  outline: none; 
+  border:none;
   text-decoration: none;
   text-transform: capitalize;
   transition: .2s linear;
@@ -48,7 +50,7 @@ section{
 
 
 
-// media queries 
+/* ======= Resposividade ======= */
 @media (max-width:991px){
 
     html{
