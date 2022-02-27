@@ -142,12 +142,16 @@ section{
     .shopping-cart {
         position: absolute;
         top: 115%;
-        right: 2rem;
+        right: -105%;
         background: $white;
         border-radius: .5rem;
         box-shadow: $box-shadow;
         width: 35rem;
         padding: 2rem;
+
+        &.active {
+          right: 2rem;
+        }
 
         .box {
             display: flex;
@@ -200,6 +204,11 @@ section{
           span {
             color: $black;
           }
+        }
+
+        .btn {
+          text-align: center;
+          width: 100%;
         }
     }
 }

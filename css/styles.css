@@ -112,12 +112,15 @@ section {
 .header .shopping-cart {
   position: absolute;
   top: 115%;
-  right: 2rem;
+  right: -105%;
   background: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   width: 35rem;
   padding: 2rem;
+}
+.header .shopping-cart.active {
+  right: 2rem;
 }
 .header .shopping-cart .box {
   display: flex;
@@ -160,6 +163,10 @@ section {
 }
 .header .shopping-cart .total span {
   color: #222;
+}
+.header .shopping-cart .btn {
+  text-align: center;
+  width: 100%;
 }
 
 #menu-btn {
