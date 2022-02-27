@@ -177,6 +177,16 @@ section{
                 }
             }
         }
+
+        .total {
+          color: $light-color;
+          text-align: center;
+          font-size: 2.2rem;
+
+          span {
+            color: $black;
+          }
+        }
     }
 }
 
