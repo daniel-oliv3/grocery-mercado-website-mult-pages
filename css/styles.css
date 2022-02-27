@@ -195,6 +195,17 @@ section {
   text-transform: none;
   width: 100%;
 }
+.header .login-form .remember {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.7rem 0;
+}
+.header .login-form .remember label {
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+}
 
 #menu-btn {
   display: none;
