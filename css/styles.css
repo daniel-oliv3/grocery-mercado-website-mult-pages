@@ -50,6 +50,7 @@ section {
   padding: 2rem 9%;
   /* Search Form/Formulario de pesquisa */
   /* Shopping-cart/Carrinho de compras */
+  /* Login Form/Formulario de Logins */
 }
 .header .logo {
   font-size: 2.5rem;
@@ -166,6 +167,32 @@ section {
 }
 .header .shopping-cart .btn {
   text-align: center;
+  width: 100%;
+}
+.header .login-form {
+  position: absolute;
+  top: 115%;
+  right: 2rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  width: 35rem;
+  padding: 2rem;
+}
+.header .login-form h3 {
+  color: #222;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+.header .login-form .box {
+  margin: 0.7rem 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.2rem;
+  font-size: 1.5rem;
+  color: #222;
+  text-transform: none;
   width: 100%;
 }
 
