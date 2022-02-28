@@ -172,12 +172,16 @@ section {
 .header .login-form {
   position: absolute;
   top: 115%;
-  right: 2rem;
+  right: -105%;
   background: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   width: 35rem;
   padding: 2rem;
+}
+.header .login-form.active {
+  right: 2rem;
+  transition: 0.4s linear;
 }
 .header .login-form h3 {
   color: #222;
@@ -219,6 +223,9 @@ section {
 }
 .header .login-form p a {
   color: #bac34e;
+}
+.header .login-form p a:hover {
+  text-decoration: underline;
 }
 
 #menu-btn {

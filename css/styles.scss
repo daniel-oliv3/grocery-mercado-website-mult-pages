@@ -216,12 +216,17 @@ section{
     .login-form {
       position: absolute;
       top: 115%;
-      right: 2rem;
+      right: -105%;
       background: $white;
       border-radius: .5rem;
       box-shadow: $box-shadow;
       width: 35rem;
       padding: 2rem;
+
+      &.active {
+        right: 2rem;
+        transition: .4s linear;
+      }
 
       h3 {
         color: $black;
@@ -267,6 +272,10 @@ section{
 
         a {
           color: $green;
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
