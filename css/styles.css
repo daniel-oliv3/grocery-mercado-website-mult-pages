@@ -232,7 +232,12 @@ section {
   display: none;
 }
 
-/* =======  ======= */
+/*Espaço*/
+.space {
+  min-height: 50vh;
+}
+
+/* ======= Footer Section/Seção de Rodapé ======== */
 /* ======= Resposividade ======= */
 @media (max-width: 991px) {
   html {
