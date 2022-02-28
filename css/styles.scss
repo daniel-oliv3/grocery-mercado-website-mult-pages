@@ -293,7 +293,37 @@ section{
 }
 
 /* ======= Footer Section/Seção de Rodapé ======== */
+.footer {
+  background: $light-bg;
 
+  .box-container {
+    @include grid(25rem);
+
+    .box {
+
+      h3 {
+        font-size: 2.2rem;
+        color: $black;
+        padding: 1rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        color: $light-color;
+        padding-bottom: .5rem;
+      }
+
+      a {
+        font-size: 1.4rem;
+        color: $light-color;
+        padding: 1rem 0;
+        display: block;
+
+        
+      }
+    }
+  }
+}
 
 
 

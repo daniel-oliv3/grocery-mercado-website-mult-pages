@@ -238,6 +238,31 @@ section {
 }
 
 /* ======= Footer Section/Seção de Rodapé ======== */
+.footer {
+  background: #f3f3f3;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: #222;
+  padding: 1rem;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #666;
+  padding-bottom: 0.5rem;
+}
+.footer .box-container .box a {
+  font-size: 1.4rem;
+  color: #666;
+  padding: 1rem 0;
+  display: block;
+}
+
 /* ======= Resposividade ======= */
 @media (max-width: 991px) {
   html {
