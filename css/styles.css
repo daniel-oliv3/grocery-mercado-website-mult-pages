@@ -232,11 +232,6 @@ section {
   display: none;
 }
 
-/*Espaço*/
-.space {
-  min-height: 30vh;
-}
-
 /* ======= Footer Section/Seção de Rodapé ======== */
 .footer {
   background: #f3f3f3;
