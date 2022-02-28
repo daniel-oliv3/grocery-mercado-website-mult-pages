@@ -206,6 +206,20 @@ section {
   color: #666;
   cursor: pointer;
 }
+.header .login-form .btn {
+  margin: 1rem 0;
+  width: 100%;
+  /*largura*/
+  text-align: center;
+}
+.header .login-form p {
+  color: #666;
+  padding-top: 0.7rem;
+  font-size: 1.4rem;
+}
+.header .login-form p a {
+  color: #bac34e;
+}
 
 #menu-btn {
   display: none;

@@ -253,6 +253,22 @@ section{
           cursor: pointer;
         }
       }
+
+      .btn {
+        margin: 1rem 0;
+        width: 100%; /*largura*/
+        text-align: center;
+      }
+
+      p {
+        color: $light-color;
+        padding-top: .7rem;
+        font-size: 1.4rem;
+
+        a {
+          color: $green;
+        }
+      }
     }
   }
 
