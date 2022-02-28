@@ -234,7 +234,7 @@ section {
 
 /*Espaço*/
 .space {
-  min-height: 50vh;
+  min-height: 30vh;
 }
 
 /* ======= Footer Section/Seção de Rodapé ======== */
@@ -261,6 +261,35 @@ section {
   color: #666;
   padding: 1rem 0;
   display: block;
+}
+.footer .box-container .box a:hover {
+  color: #bac34e;
+}
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+.footer .box-container .box a i {
+  padding-right: 0.5rem;
+  color: #bac34e;
+}
+.footer .box-container .box form input[type=email] {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #222;
+  margin: 1rem 0;
+  text-transform: none;
+}
+.footer .box-container .box .payment {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.credit {
+  text-align: center;
+  background: #bac34e;
+  color: #fff;
+  font-size: 2rem;
 }
 
 /* ======= Resposividade ======= */

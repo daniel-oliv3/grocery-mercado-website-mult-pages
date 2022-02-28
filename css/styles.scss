@@ -289,7 +289,7 @@ section{
 
 /*Espaço*/
 .space {
-  min-height: 50vh;
+  min-height: 30vh;
 }
 
 /* ======= Footer Section/Seção de Rodapé ======== */
@@ -319,12 +319,43 @@ section{
         padding: 1rem 0;
         display: block;
 
-        
+        &:hover {
+          color: $green;
+
+          i {
+            padding-right: 2rem;
+          }
+        }
+
+        i {
+          padding-right: .5rem;
+          color: $green;
+        }
+      }
+
+      form input[type="email"]{
+        width: 100%;
+        padding: 1rem 1.2rem;
+        font-size: 1.6rem;
+        color: $black;
+        margin: 1rem 0;
+        text-transform: none;
+      }
+
+      .payment {
+        width: 100%;
+        margin-top: 2rem;
       }
     }
   }
 }
 
+.credit {
+  text-align: center;
+  background: $green;
+  color: $white;
+  font-size: 2rem;
+}
 
 
 
