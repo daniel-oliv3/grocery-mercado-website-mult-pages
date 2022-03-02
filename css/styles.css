@@ -34,6 +34,33 @@ section {
   color: #222;
   font-size: 4rem;
 }
+.heading p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: #666;
+}
+.heading p a {
+  color: #222;
+  padding-right: 0.5rem;
+}
+.heading p a:hover {
+  color: #bac34e;
+}
+
+/**/
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+.title span {
+  color: #bac34e;
+  padding-left: 0.5rem;
+}
 
 .btn {
   margin-top: 1rem;

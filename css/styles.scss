@@ -48,6 +48,37 @@ section{
     color: $black;
     font-size: 4rem;
   }
+
+  p {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: $light-color;
+
+    a {
+      color: $black;
+      padding-right: .5rem;
+
+      &:hover {
+        color: $green;
+      }
+    }
+  }
+}
+
+/**/
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+  border-bottom: $border;
+  color: $black;
+
+  span {
+    color: $green;
+    padding-left: .5rem;
+  }
 }
 
 .btn {
