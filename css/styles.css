@@ -277,6 +277,22 @@ section {
   width: 5rem;
   line-height: 5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #fff;
+  font-size: 3rem;
+  color: #222;
+  cursor: pointer;
+}
+.home #next-slide:hover,
+.home #prev-slide:hover {
+  background: #bac34e;
+  color: #fff;
+}
+.home #prev-slide {
+  left: 2rem;
+}
+.home #next-slide {
+  right: 2rem;
 }
 
 /* ======= Footer Section/Seção de Rodapé ======== */

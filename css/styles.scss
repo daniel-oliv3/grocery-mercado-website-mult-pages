@@ -342,6 +342,24 @@ section{
     width: 5rem;
     line-height: 5rem;
     box-shadow: $box-shadow;
+    text-align: center;
+    background: $white;
+    font-size: 3rem;
+    color: $black;
+    cursor: pointer;
+
+    &:hover {
+      background: $green;
+      color: $white;
+    }
+  }
+
+  #prev-slide {
+    left: 2rem;
+  }
+
+  #next-slide {
+    right: 2rem;
   }
 }
 
