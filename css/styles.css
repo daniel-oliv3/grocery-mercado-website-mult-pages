@@ -430,6 +430,91 @@ section {
   text-align: center;
   overflow: hidden;
 }
+.products .box-container .box:hover .icons {
+  top: 0;
+}
+.products .box-container .box .icons {
+  position: absolute;
+  top: -105%;
+  left: 0;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(243, 243, 243, 0.8);
+  gap: 1rem;
+}
+.products .box-container .box .icons a {
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  color: #666;
+}
+.products .box-container .box .icons a:hover {
+  background: #bac34e;
+  color: #fff;
+}
+.products .box-container .box .image {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+.products .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.products .box-container .box .content {
+  padding: 1.5rem;
+}
+.products .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #222;
+}
+.products .box-container .box .content .price {
+  font-size: 2rem;
+  color: #222;
+  padding: 1rem 0;
+}
+.products .box-container .box .content .stars i {
+  font-size: 1.7rem;
+  color: #bac34e;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.about .image {
+  flex: 1 1 40rem;
+}
+.about .image img {
+  width: 100%;
+}
+.about .content {
+  flex: 1 1 40rem;
+}
+.about .content span {
+  color: #bac34e;
+  font-size: 2.5rem;
+}
+.about .content h3 {
+  color: #222;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+}
+.about .content p {
+  color: #666;
+  font-size: 1.4rem;
+  line-height: 2;
+  padding: 1rem 0;
+}
 
 /* ======= Footer Section/Seção de Rodapé ======== */
 .footer {

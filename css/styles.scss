@@ -505,19 +505,116 @@ section{
 
 
 /* ======= Products Section/Seção de Produtos ======== */
-.products .box-container {
+.products .box-container{
   @include grid(25rem);
 
-
-  .box {
+  .box{
     position: relative;
-    background: $light-bg;
+    background:$light-bg;
     text-align: center;
     overflow: hidden;
 
+    &:hover .icons{
+      top:0;
+    }
+
+    .icons{
+      position: absolute;
+      top:-105%; left:0;
+      height: 30rem;
+      width:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(243, 243, 243, .8);
+      gap:1rem;
+
+      a{
+        font-size: 2rem;
+        height:5rem;
+        width:5rem;
+        line-height:5rem;
+        background:$white;
+        box-shadow: $box-shadow;
+        color:$light-color;
+
+        &:hover{
+          background: $green;
+          color:$white;
+        }
+      }
+    }
+
+    .image{
+      height:30rem;
+      width:100%;
+      overflow: hidden;
+
+      img{
+        height: 100%;
+        width:100%;
+        object-fit: cover;
+      }
+    }
+
+    .content{
+      padding:1.5rem;
+
+      h3{
+        font-size: 2rem;
+        color:$black;
+      }
+
+      .price{
+        font-size: 2rem;
+        color:$black;
+        padding:1rem 0;
+      }
+
+      .stars i{
+        font-size: 1.7rem;
+        color:$green;
+      }
+    }
   }
 }
 
+.about{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:1.5rem;
+
+  .image{
+    flex:1 1 40rem;
+
+    img{
+      width:100%;
+    }
+  }
+
+  .content{
+    flex:1 1 40rem;
+
+    span{
+      color:$green;
+      font-size: 2.5rem;
+    }
+
+    h3{
+      color:$black;
+      font-size: 3rem;
+      padding-top: .5rem;
+    }
+
+    p{
+      color:$light-color;
+      font-size: 1.4rem;
+      line-height: 2;
+      padding:1rem 0;
+    }
+  }
+}
 
 
 
