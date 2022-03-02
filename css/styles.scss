@@ -77,7 +77,17 @@ section{
 
   span {
     color: $green;
-    padding-left: .5rem;
+    padding-left: .7rem;
+  }
+
+  a {
+    margin-left: auto;
+    color: $light-color;
+    font-size: 1.5rem;
+
+    &:hover {
+      color: $green;
+    }
   }
 }
 
@@ -469,8 +479,29 @@ section{
 }
 
 
+/* ======= Category Section/Seção de Categoria ======== */
+.category .box-container {
+  @include grid(16rem);
+  padding: 4rem 0;
 
+  .box {
+    text-align: center;
 
+    img {
+      height: 15rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+      margin: 1rem 0;
+      color: $light-color;
+    }
+
+    &:hover h3 {
+      color: $green;
+    }
+  }
+}
 
 
 
