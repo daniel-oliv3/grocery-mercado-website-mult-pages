@@ -418,6 +418,19 @@ section {
   color: #bac34e;
 }
 
+/* ======= Products Section/Seção de Produtos ======== */
+.products .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.products .box-container .box {
+  position: relative;
+  background: #f3f3f3;
+  text-align: center;
+  overflow: hidden;
+}
+
 /* ======= Footer Section/Seção de Rodapé ======== */
 .footer {
   background: #f3f3f3;

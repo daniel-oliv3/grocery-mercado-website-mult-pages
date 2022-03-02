@@ -504,7 +504,19 @@ section{
 }
 
 
+/* ======= Products Section/Seção de Produtos ======== */
+.products .box-container {
+  @include grid(25rem);
 
+
+  .box {
+    position: relative;
+    background: $light-bg;
+    text-align: center;
+    overflow: hidden;
+
+  }
+}
 
 
 
