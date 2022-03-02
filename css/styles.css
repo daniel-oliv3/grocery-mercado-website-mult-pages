@@ -234,7 +234,13 @@ section {
 
 @keyframes fadeLeft {
   100% {
-    transform: translateX(5rem);
+    transform: translateX(-5rem);
+    opacity: 0;
+  }
+}
+@keyframes fadeUp {
+  0% {
+    transform: scale(0.5);
     opacity: 0;
   }
 }
@@ -258,7 +264,7 @@ section {
 }
 .home .slides-container .slide .content {
   flex: 1 1 40rem;
-  animation: fadeLeft 0.4s linear;
+  animation: fadeLeft 0.4s linear 0.4s backwards;
 }
 .home .slides-container .slide .content span {
   color: #666;
@@ -274,6 +280,7 @@ section {
 }
 .home .slides-container .slide .image img {
   width: 100%;
+  animation: fadeUp 0.4s linear;
 }
 .home #next-slide,
 .home #prev-slide {
