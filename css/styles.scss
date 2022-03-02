@@ -319,6 +319,7 @@ section{
         h3 {
           font-size: 6rem;
           color: $black;
+          padding: .5rem 0;
         }
       }
 
@@ -330,6 +331,17 @@ section{
         }
       }
     }
+  }
+
+  #next-slide,
+  #prev-slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    box-shadow: $box-shadow;
   }
 }
 

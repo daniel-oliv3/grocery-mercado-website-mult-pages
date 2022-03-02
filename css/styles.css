@@ -260,12 +260,23 @@ section {
 .home .slides-container .slide .content h3 {
   font-size: 6rem;
   color: #222;
+  padding: 0.5rem 0;
 }
 .home .slides-container .slide .image {
   flex: 1 1 40rem;
 }
 .home .slides-container .slide .image img {
   width: 100%;
+}
+.home #next-slide,
+.home #prev-slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 /* ======= Footer Section/Seção de Rodapé ======== */
