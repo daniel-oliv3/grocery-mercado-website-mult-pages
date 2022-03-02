@@ -232,6 +232,12 @@ section {
   display: none;
 }
 
+@keyframes fadeLeft {
+  100% {
+    transform: translateX(5rem);
+    opacity: 0;
+  }
+}
 /* ======= Home Section/Seção de Inicio ======== */
 .home {
   padding-top: 14rem;
@@ -252,6 +258,7 @@ section {
 }
 .home .slides-container .slide .content {
   flex: 1 1 40rem;
+  animation: fadeLeft 0.4s linear;
 }
 .home .slides-container .slide .content span {
   color: #666;

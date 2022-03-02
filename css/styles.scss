@@ -286,6 +286,13 @@ section{
     display: none;
 }
 
+@keyframes fadeLeft {
+  100%{
+    transform: translateX(5rem);
+    opacity: 0;
+  }
+}
+
 
 /* ======= Home Section/Seção de Inicio ======== */
 .home {
@@ -310,6 +317,7 @@ section{
 
       .content {
         flex: 1 1 40rem;
+        animation: fadeLeft .4s linear;
 
         span {
           color: $light-color;
