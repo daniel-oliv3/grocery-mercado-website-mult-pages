@@ -36,6 +36,20 @@ section{
   padding:3rem 9%;
 }
 
+.heading {
+  background: url(../images/heading-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+
+  h1 {
+    color: $black;
+    font-size: 4rem;
+  }
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
