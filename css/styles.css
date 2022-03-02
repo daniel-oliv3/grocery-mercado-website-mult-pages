@@ -232,6 +232,42 @@ section {
   display: none;
 }
 
+/* ======= Home Section/Seção de Inicio ======== */
+.home {
+  padding-top: 14rem;
+  background: url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.home .slides-container .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  display: none;
+}
+.home .slides-container .slide.active {
+  display: flex;
+}
+.home .slides-container .slide .content {
+  flex: 1 1 40rem;
+}
+.home .slides-container .slide .content span {
+  color: #666;
+  font-size: 2.5rem;
+}
+.home .slides-container .slide .content h3 {
+  font-size: 6rem;
+  color: #222;
+}
+.home .slides-container .slide .image {
+  flex: 1 1 40rem;
+}
+.home .slides-container .slide .image img {
+  width: 100%;
+}
+
 /* ======= Footer Section/Seção de Rodapé ======== */
 .footer {
   background: #f3f3f3;
