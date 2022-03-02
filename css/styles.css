@@ -277,6 +277,7 @@ section {
 }
 .home .slides-container .slide .image {
   flex: 1 1 40rem;
+  margin: 3rem 0;
 }
 .home .slides-container .slide .image img {
   width: 100%;
