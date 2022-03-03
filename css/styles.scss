@@ -619,7 +619,47 @@ section{
 }
 
 
+/* ======= Gallery Section/Seção de Galeria ======== */
+.gallery .box-container {
+  @include grid(30rem);
 
+  .box {
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &:hover img {
+      transform: scale(1.2);
+    }
+
+    .icons {
+      text-align: center;
+      background: rgba(0,0, 0, .7);
+      padding: 1.5rem 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+
+      a {
+        font-size: 2.5rem;
+        color: $white;
+        margin: 0 1.5rem;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+  }
+}
 
 
 

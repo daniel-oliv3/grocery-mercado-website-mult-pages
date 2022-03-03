@@ -517,6 +517,44 @@ section {
   padding: 1rem 0;
 }
 
+/* ======= Gallery Section/Seção de Galeria ======== */
+.gallery .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+.gallery .box-container .box {
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+.gallery .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery .box-container .box:hover img {
+  transform: scale(1.2);
+}
+.gallery .box-container .box .icons {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.gallery .box-container .box .icons a {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 1.5rem;
+}
+.gallery .box-container .box .icons a:hover {
+  color: #bac34e;
+}
+
 /* ======= Footer Section/Seção de Rodapé ======== */
 .footer {
   background: #f3f3f3;
