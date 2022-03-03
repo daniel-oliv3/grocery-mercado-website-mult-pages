@@ -536,12 +536,15 @@ section {
 .gallery .box-container .box:hover img {
   transform: scale(1.2);
 }
+.gallery .box-container .box:hover .icons {
+  bottom: 0;
+}
 .gallery .box-container .box .icons {
   text-align: center;
   background: rgba(0, 0, 0, 0.7);
   padding: 1.5rem 0;
   position: absolute;
-  bottom: 0;
+  bottom: -6rem;
   left: 0;
   right: 0;
   z-index: 10;
